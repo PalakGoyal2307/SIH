@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <title> Responsive Drop Down Navigation Menu | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+     <ul>
+
+    <li><a href="#">Home</a></li>
+
+    <li><a href="#">Products</a>
+      <ul class="dropdown">
+        <li><a href="#">Farm Management</a></li>
+        <li><a href="#">Crop Protection</a></li>
+        <li><a href="#">Farmer Engagement</a></li>
+        <li><a href="#">Research and Development</a></li>
+      </ul></li>
+
+    <li><a href="#">Services</a>
+    <ul class="dropdown">
+      <li><a href="#">Crop Assessment</a></li>
+      <li><a href="#">AgriPay Services</a></li>
+      <li><a href="#">Farmer Scorecard</a></li>
+    </ul></li>
+
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Login</a></li>
+
+</ul></nav>
+    
+<div class="box">
+ <div class="box1">
+  <p>Most Reliable and Efficient Contract Farming Services</p>
+ </div>
+</div>
+<div class="shop">
+  <div class="box2 boxes">
+    <div class="content">
+      <h2>Farm Management</h2>
+      <div class="im" style="background-image: url('https://media.licdn.com/dms/image/D4D12AQEflgyA6OqWEA/article-cover_image-shrink_600_2000/0/1684836766244?e=2147483647&v=beta&t=dszrqMLteEjYWBu3b0222bukId05sECITri4pGC8oPs');"></div>
+    </div>
+  </div>
+  <div class="box3 boxes"><div class="content">
+    <h2>Crop Management using AI</h2>
+    <div class="im" style="background-image: url('https://khetibuddy.com/wp-content/uploads/2022/01/erp2-500x375.jpg');"></div>
+  </div></div>
+  <div class="box4 boxes"><div class="content">
+    <h2>AgriPay Services</h2>
+    <div class="im" style="background-image: url('https://blog.agribazaar.com/wp-content/uploads/2021/10/image-279.png');"></div>
+  </div></div>
+  <div class="box5 boxes"><div class="content">
+    <h2>IoT Based Services</h2>
+    <div class="im" style="background-image: url('https://diplomatist.com/wp-content/uploads/2020/04/Precision-Farming_footer_07.15.19-1-scaled.jpg');"></div>
+  </div></div>
+</div>
+</body>
+</html>
+
+    
+  
